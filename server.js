@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const  cors = require('cors');
 const routehandler=require('./routes/routehandler')
 
-mongoose.connect('mongodb+srv://root:root@cluster0-rpyex.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('ApiKey', {
    useNewUrlParser: true
 }).then(() => {
       console.log('Database sucessfully connected')
